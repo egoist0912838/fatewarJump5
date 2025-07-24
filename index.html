@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FATE WAR — Eternal Eclipse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="floating-nav">
+    <a href="#trailer">Трейлер</a>
+    <a href="#why">Зачем прыгать?</a>
+    <a href="#features">Контент</a>
+    <a href="#join">Вступить</a>
+  </nav>
+  <header class="hero">
+    <img src="assets/jump-logo.png" alt="Jump Logo" class="logo animated fadeIn" />
+    <h1 class="animated fadeInUp">Eternal Eclipse</h1>
+    <p class="subtext animated fadeInUp">Игровое событие от Egoist Games</p>
+    <div id="countdown" class="countdown animated fadeInUp"></div>
+    <a href="#trailer" class="btn animated fadeInUp">Смотреть трейлер</a>
+  <div class="live-info">
+    <div class="live-item">
+      <span class="live-label">↻ Старт через:</span>
+      <span id="countdown"></span>
+    </div>
+    <div class="live-item">
+      <span class="live-label">👥 Discord:</span>
+      <span id="discord-count">…</span>
+    </div>
+    <div class="live-item">
+      <span class="live-label">👥 Telegram:</span>
+      <span id="telegram-count">…</span>
+    </div>
+  </div>
+  </header>
+
+  <section id="trailer" class="trailer" data-aos="fade-up">
+    <h2>Трейлер события</h2>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/Ul61cqxWbBY?si=_pwae9ASZzRcl5-W"
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section class="why" data-aos="fade-up">
+    <h2>Зачем прыгать с нами?</h2>
+    <ul>
+      <li><strong>Опытная команда</strong> — ветераны Call of Dragons и Rise of Kingdoms</li>
+      <li><strong>YouTube-канал:</strong> <a href="https://www.youtube.com/@eg01st_games" target="_blank">Egoist Games</a></li>
+      <li><strong>Удобные соцсети:</strong> Discord + Telegram</li>
+      <li><strong>Готовая структура:</strong> роли, ранги, поддержка и лидерство</li>
+    </ul>
+  </section>
+
+  <section class="features" data-aos="fade-up">
+    <h2>Что ждёт вас в FATE WAR</h2>
+    <div class="grid">
+      <div class="card">Постройка базы</div>
+      <div class="card">Тактические PvP-бои</div>
+      <div class="card">День / Ночь + Погода</div>
+      <div class="card">Роглайк-исследования</div>
+      <div class="card">Скины и кастомизация</div>
+    </div>
+  </section>
+
+  <section class="join" data-aos="fade-up">
+    <h2>Как присоединиться</h2>
+    <ol>
+      <li><a href="https://discord.gg/yzbYpFrzR7" target="_blank">Зайди на Discord-сервер</a></li>
+      <li>Прими правила</li>
+      <li>Заполни анкету в #🃏│анкеты│fw</li>
+      <li>Получи доступ к команде</li>
+    </ol>
+    <p class="highlight">Не упусти шанс стать лидером с первого дня!</p>
+  </section>
+
+  <section class="telegram" data-aos="fade-up">
+    <h2>Чат-сообщество</h2>
+    <div class="tg-embed">
+      <script async src="https://telegram.org/js/telegram-widget.js?22"
+        data-telegram-discussion="fate_war/1"
+        data-comments-limit="5"
+        data-color="#ef651f"
+        data-dark="1">
+      </script>
+    </div>
+  </section>
+
+  <footer data-aos="fade-up">
+    <p>FATE WAR — © 2025 Egoist Games. Все права защищены.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
